@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ObstaclesAssault.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ObstaclesAssault.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ObstaclesAssaultEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ObstaclesAssault">
+      <UniqueIdentifier>{3D8DECA5-0746-34D7-815D-0B166A60D0C8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ObstaclesAssault\ObstaclesAssault.Build.cs">
+      <Filter>Source\ObstaclesAssault</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\ObstaclesAssault.cpp">
+      <Filter>Source\ObstaclesAssault</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\ObstaclesAssault.h">
+      <Filter>Source\ObstaclesAssault</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\ObstaclesAssaultCharacter.cpp">
+      <Filter>Source\ObstaclesAssault</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\ObstaclesAssaultCharacter.h">
+      <Filter>Source\ObstaclesAssault</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\ObstaclesAssaultGameMode.cpp">
+      <Filter>Source\ObstaclesAssault</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\ObstaclesAssaultGameMode.h">
+      <Filter>Source\ObstaclesAssault</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\ObstaclesAssaultPlayerController.cpp">
+      <Filter>Source\ObstaclesAssault</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\ObstaclesAssaultPlayerController.h">
+      <Filter>Source\ObstaclesAssault</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstaclesAssault\Variant_Combat">
+      <UniqueIdentifier>{15206D60-C4D5-31A9-8CF4-F1F270AE7444}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstaclesAssault\Variant_Combat\AI">
+      <UniqueIdentifier>{C64D4A0B-533B-3C9F-8E56-B7A51C0B6FB0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstaclesAssault\Variant_Combat\Animation">
+      <UniqueIdentifier>{54F03C0C-C0F7-3E79-AAA4-588E45ACA08C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstaclesAssault\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{CB17CF70-1F36-31CA-86F5-DFA805F288D6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstaclesAssault\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{FD6862BC-0684-3D36-81B3-28ACF5C25EFE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstaclesAssault\Variant_Combat\UI">
+      <UniqueIdentifier>{3BF2B6E9-EBA9-3ED5-A4A1-A85C524651EF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\ObstaclesAssault\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstaclesAssault\Variant_Platforming">
+      <UniqueIdentifier>{801888F1-AC72-36BA-BF6B-9B0ED5F86A23}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\ObstaclesAssault\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\ObstaclesAssault\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\ObstaclesAssault\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstaclesAssault\Variant_Platforming\Animation">
+      <UniqueIdentifier>{B1B3AF48-6F90-3142-9C13-25EAEB633BAD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\ObstaclesAssault\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstaclesAssault\Variant_SideScrolling">
+      <UniqueIdentifier>{54A44517-8ED8-3088-979B-5AE6F3209809}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstaclesAssault\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{E344874F-F4E2-3C3E-875F-615EA3F91CE6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstaclesAssault\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{28076612-B859-3102-AB8D-4AD9F37FB9B7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstaclesAssault\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{0601314A-074E-3A84-B390-2132D3372167}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\ObstaclesAssault\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{6E2DF15F-7C96-353C-854E-5FC361587FF4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstaclesAssault\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\ObstaclesAssault\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

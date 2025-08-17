@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\myproject\\unreal\\udemy_ue5_course\\projects\\ue5.6_obstaclesassault_cpp\\obstaclesassault\\source\\obstaclesassault\\variant_combat\\gameplay\\combatdummy.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\myproject\\unreal\\udemy_ue5_course\\projects\\ue5.6_obstaclesassault_cpp\\obstaclesassault\\intermediate\\build\\win64\\x64\\obstaclesassaulteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\myproject\\unreal\\udemy_ue5_course\\projects\\ue5.6_obstaclesassault_cpp\\obstaclesassault\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstaclesassault\\definitions.obstaclesassault.h",
+            "e:\\myproject\\unreal\\udemy_ue5_course\\projects\\ue5.6_obstaclesassault_cpp\\obstaclesassault\\source\\obstaclesassault\\variant_combat\\gameplay\\combatdummy.h",
+            "e:\\myproject\\unreal\\udemy_ue5_course\\projects\\ue5.6_obstaclesassault_cpp\\obstaclesassault\\source\\obstaclesassault\\variant_combat\\interfaces\\combatdamageable.h",
+            "e:\\myproject\\unreal\\udemy_ue5_course\\projects\\ue5.6_obstaclesassault_cpp\\obstaclesassault\\intermediate\\build\\win64\\unrealeditor\\inc\\obstaclesassault\\uht\\combatdamageable.generated.h",
+            "e:\\myproject\\unreal\\udemy_ue5_course\\projects\\ue5.6_obstaclesassault_cpp\\obstaclesassault\\intermediate\\build\\win64\\unrealeditor\\inc\\obstaclesassault\\uht\\combatdummy.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\physicsengine\\physicsconstraintcomponent.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintinstance.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintdrives.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintdrives.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintinstance.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\physicsconstraintcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
